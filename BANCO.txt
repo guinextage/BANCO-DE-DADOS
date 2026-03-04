@@ -1,0 +1,9 @@
+USE tarefasdb;
+create table tarefas (
+	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+	datains DATE DEFAULT CURRENT_DATE(), 
+	data DATE,
+	hora TIME,
+	descricao VARCHAR(255)
+ );
+ DROP TABLE tarefas;
